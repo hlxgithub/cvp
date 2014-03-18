@@ -532,40 +532,6 @@
         <image name="cvp57x57.png" width="57" height="57"/>
         <image name="nophoto-2.png" width="200" height="200"/>
     </resources>
-    <classes>
-        <class className="AGENDAViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AGENDAViewController.h"/>
-        </class>
-        <class className="DETALHEATENDIMENTOViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DETALHEATENDIMENTOViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="ChooseExisting"/>
-                <relationship kind="action" name="LimparHorario"/>
-                <relationship kind="action" name="SalvarAgenda"/>
-                <relationship kind="action" name="TakePhoto"/>
-                <relationship kind="outlet" name="imgPaciente" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="txtCelular" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="txtHorario" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="txtNome" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="txtSeNovoPac" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SELECIONADATAViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SELECIONADATAViewController.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="LimpaComponentesLogin"/>
-                <relationship kind="action" name="enterCredentials"/>
-                <relationship kind="outlet" name="passwordField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="userNameField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
