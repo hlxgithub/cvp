@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
-@interface ViewController : UIViewController
+AppDelegate *appDel;
+
+@interface ViewController : UIViewController {
+    
+    IBOutlet UITextField *userNameField;
+    IBOutlet UITextField *passwordField;
+
+}
+
+
+@property (nonatomic, strong) NSMutableArray * json;
+@property (nonatomic, strong) NSMutableArray * usuariosArray;
+
+-(IBAction)enterCredentials;
+-(IBAction)LimpaComponentesLogin;
 
 @end

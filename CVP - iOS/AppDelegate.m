@@ -10,6 +10,13 @@
 
 @implementation AppDelegate
 
+@synthesize gdentista;
+@synthesize gdata;
+@synthesize gdentistavinculado;
+@synthesize guser;
+@synthesize gpass;
+@synthesize gabreviacaodentista;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
